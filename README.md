@@ -17,9 +17,10 @@ A surgical PowerShell utility to fix DayZ Launcher lag and slow server browser l
 * **DNS Refresh**: Flushes your Windows DNS to improve server IP resolution and ping accuracy.
 
 ## 🚀 How to Use
-1. Save `ClearDayZ.ps1` to your computer.
-2. **Right-click** the file and select **Run with PowerShell**.
-3. *Note: The script will automatically close Steam and DayZ to unlock the necessary files.*
+1. Download the latest release and extract the folder.
+2. **Double-click** the `Run_Cleanup.bat` file.
+3. *Note: If Windows prompts you with "Windows protected your PC," click **More Info** and then **Run Anyway**.*
+4. The script will automatically close Steam, backup your favorites, and perform the cleanup.
 
 ## 📂 How to Restore a Backup
 If your favorites disappear or the file becomes corrupted, follow these steps to restore your data:

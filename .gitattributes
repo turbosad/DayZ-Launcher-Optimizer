@@ -14,3 +14,5 @@
 
 # Denote that .ps1 files should use PowerShell syntax highlighting in GitHub
 *.ps1 linguist-language=PowerShell
+
+*.bat text eol=crlf
