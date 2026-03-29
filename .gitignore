@@ -1,0 +1,21 @@
+# --- DayZ Cleanup Tool Ignores ---
+
+# Ignore the local backup folder created by the script
+# This prevents your personal SteamID/Favorites from being uploaded
+DayZ_VDF_Backups/
+DayZ_Backups/
+
+# Ignore log files generated during testing
+*.log
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore VS Code specific settings/history
+.vscode/
+.history/
+
+# Ignore temporary Windows files
+*.tmp
+*.bak
