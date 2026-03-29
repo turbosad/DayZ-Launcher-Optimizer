@@ -1,6 +1,8 @@
 # ⚠️ Disclaimer
 **This is NOT an official tool by Bohemia Interactive.** This is a community-made utility. Use this script at your own risk. The author is not responsible for any loss of data or configuration, although the script is designed to create backups automatically.
 
+**Performance Note:** While this script is designed to reduce UI lag and browser "stutter," **overall game or browser performance may not improve** depending on your hardware, network conditions, or Steam's internal API limits. This tool fixes specific file-bloat issues; it is not a "magic fix" for low FPS or poor internet connection.
+
 ---
 
 # DayZ Server Browser & Launcher Optimizer
@@ -12,7 +14,7 @@ A surgical PowerShell utility to fix DayZ Launcher lag and slow server browser l
 * **Preserves Favorites**: Specifically skips the `favorites` and `filters` blocks in your VDF files.
 * **Validates Syntax**: Ensures the `.vdf` file remains correctly formatted with balanced brackets.
 * **Launcher Cleanup**: Wipes the `CECache` folder (a major cause of Launcher UI lag).
-* **DNS Refresh**: Flushes your Windows DNS to ensure pings to servers are fresh.
+* **DNS Refresh**: Flushes your Windows DNS to improve server IP resolution and ping accuracy.
 
 ## 🚀 How to Use
 1. Save `ClearDayZ.ps1` to your computer.
