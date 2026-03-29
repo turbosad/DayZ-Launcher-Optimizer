@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
+# Set default behavior to automatically normalize line endings
 * text=auto
+
+# Ensure PowerShell scripts keep Windows-style line endings (CRLF) 
+# because they are executed on Windows environments
+*.ps1 text eol=crlf
+
+# Standardize Markdown and Text files
+*.md text
+*.txt text
+
+# Explicitly treat the VDF files as text if you ever commit a template
+*.vdf text
+
+# Denote that .ps1 files should use PowerShell syntax highlighting in GitHub
+*.ps1 linguist-language=PowerShell
